@@ -1,0 +1,49 @@
+.profile {
+    padding: 20px;
+  }
+  
+  .profile h1 {
+    font-size: 2em;
+    color: black; /* Blue color */
+    margin-bottom: 20px;
+  }
+  
+
+  .profile-container {
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .profile-container h2 {
+    font-size: 1.5em;
+    color: rgb(45, 45, 45); 
+    margin-bottom: 10px;
+  }
+  
+  .profile-container p {
+    font-size: 1em;
+    color: #333;
+  }
+  
+  .profile-container select {
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 100%;
+  }
+  
+  .name-container {
+    background-color: rgba(67, 145, 237, 0.1);  /* Blue border */
+  }
+  
+  .email-container {
+    background-color: rgba(67, 145, 237, 0.1); /* Blue border */
+  }
+  
+  .language-container {
+    background-color: rgba(67, 145, 237, 0.1); /* Blue border */
+  }
+  

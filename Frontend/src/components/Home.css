@@ -1,0 +1,116 @@
+.home {
+    padding: 20px;
+  }
+  a {
+    text-decoration: none; /* Remove underline from links */
+    color: inherit; /* Inherit text color from parent */
+  }
+  .courses-section {
+    padding: 20px;
+    background-color: #EEF2F5;
+    border-radius: 10px;
+  }
+  
+  .courses-section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .courses-tabs {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .tab {
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .tab.active,
+  .tab:hover {
+    background-color: #4391ED;
+    color: white;
+  }
+  
+  .courses-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: fit-content;
+  }
+  
+  .course-item {
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    transition: transform 0.3s ease;
+  }
+  
+  .course-image {
+    width: fit-content; /* Adjust width as needed */
+    height: 200px; /* Adjust height as needed */
+    object-fit: cover;
+    margin-right: 15px;
+  }
+  
+  .course-info {
+    flex: 1;
+  }
+  
+  .course-title {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  
+  .course-description {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .course-meta {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  
+  .course-videos {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  /* Hover effect for course items */
+  .course-item:hover {
+    background-color: #f0f0f0; /* Light gray background on hover */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    transform: scale(1.02);
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .courses-list {
+      flex-direction: column;
+    }
+  
+    .course-item {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .course-image {
+      width: 100%;
+      height: auto;
+    }
+  
+    .course-meta {
+      align-items: flex-start;
+    }
+  }
+  

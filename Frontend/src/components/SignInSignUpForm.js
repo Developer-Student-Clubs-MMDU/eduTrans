@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { FaFacebookF, FaGooglePlusG, FaLinkedinIn } from 'react-icons/fa';
 import './SignInSignUpForm.css';
 
+const userSignup = "http://localhost:3333/user/signup";
 const SignInSignUpForm = () => {
     const [isRightPanelActive, setIsRightPanelActive] = useState(false);
 
